@@ -9,21 +9,34 @@
 /* Begin PBXBuildFile section */
 		C6E3EBC32B80E07A0001CB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBC22B80E07A0001CB42 /* AppDelegate.swift */; };
 		C6E3EBC52B80E07A0001CB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBC42B80E07A0001CB42 /* SceneDelegate.swift */; };
-		C6E3EBC72B80E07A0001CB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBC62B80E07A0001CB42 /* ViewController.swift */; };
-		C6E3EBCA2B80E07A0001CB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E3EBC82B80E07A0001CB42 /* Main.storyboard */; };
+		C6E3EBC72B80E07A0001CB42 /* WriteDiaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBC62B80E07A0001CB42 /* WriteDiaryController.swift */; };
 		C6E3EBCC2B80E07D0001CB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E3EBCB2B80E07D0001CB42 /* Assets.xcassets */; };
 		C6E3EBCF2B80E07D0001CB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E3EBCD2B80E07D0001CB42 /* LaunchScreen.storyboard */; };
+		C6E3EBD82B80E89C0001CB42 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C6E3EBD72B80E89C0001CB42 /* SnapKit */; };
+		C6E3EBDA2B80F8130001CB42 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBD92B80F8120001CB42 /* TabbarViewController.swift */; };
+		C6E3EBDC2B80F86B0001CB42 /* ReadDiaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBDB2B80F86B0001CB42 /* ReadDiaryController.swift */; };
+		C6E3EBDE2B80F8780001CB42 /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBDD2B80F8780001CB42 /* CalendarController.swift */; };
+		C6E3EBE02B80FA4D0001CB42 /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBDF2B80FA4D0001CB42 /* OpeningViewController.swift */; };
+		C6E3EBE22B80FB1A0001CB42 /* Pass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBE12B80FB1A0001CB42 /* Pass.swift */; };
+		C6E3EBE42B80FF110001CB42 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBE32B80FF110001CB42 /* UIViewController+.swift */; };
+		C6E3EBE62B811A560001CB42 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E3EBE52B811A560001CB42 /* ReminderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6E3EBBF2B80E07A0001CB42 /* DiaryAIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryAIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E3EBC22B80E07A0001CB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6E3EBC42B80E07A0001CB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6E3EBC62B80E07A0001CB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C6E3EBC92B80E07A0001CB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6E3EBC62B80E07A0001CB42 /* WriteDiaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteDiaryController.swift; sourceTree = "<group>"; };
 		C6E3EBCB2B80E07D0001CB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6E3EBCE2B80E07D0001CB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6E3EBD02B80E07D0001CB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6E3EBD92B80F8120001CB42 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		C6E3EBDB2B80F86B0001CB42 /* ReadDiaryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadDiaryController.swift; sourceTree = "<group>"; };
+		C6E3EBDD2B80F8780001CB42 /* CalendarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		C6E3EBDF2B80FA4D0001CB42 /* OpeningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
+		C6E3EBE12B80FB1A0001CB42 /* Pass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pass.swift; sourceTree = "<group>"; };
+		C6E3EBE32B80FF110001CB42 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		C6E3EBE52B811A560001CB42 /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E3EBD82B80E89C0001CB42 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +72,14 @@
 			children = (
 				C6E3EBC22B80E07A0001CB42 /* AppDelegate.swift */,
 				C6E3EBC42B80E07A0001CB42 /* SceneDelegate.swift */,
-				C6E3EBC62B80E07A0001CB42 /* ViewController.swift */,
-				C6E3EBC82B80E07A0001CB42 /* Main.storyboard */,
+				C6E3EBDF2B80FA4D0001CB42 /* OpeningViewController.swift */,
+				C6E3EBE52B811A560001CB42 /* ReminderCell.swift */,
+				C6E3EBD92B80F8120001CB42 /* TabbarViewController.swift */,
+				C6E3EBC62B80E07A0001CB42 /* WriteDiaryController.swift */,
+				C6E3EBDB2B80F86B0001CB42 /* ReadDiaryController.swift */,
+				C6E3EBDD2B80F8780001CB42 /* CalendarController.swift */,
+				C6E3EBE32B80FF110001CB42 /* UIViewController+.swift */,
+				C6E3EBE12B80FB1A0001CB42 /* Pass.swift */,
 				C6E3EBCB2B80E07D0001CB42 /* Assets.xcassets */,
 				C6E3EBCD2B80E07D0001CB42 /* LaunchScreen.storyboard */,
 				C6E3EBD02B80E07D0001CB42 /* Info.plist */,
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = DiaryAIApp;
+			packageProductDependencies = (
+				C6E3EBD72B80E89C0001CB42 /* SnapKit */,
+			);
 			productName = DiaryAIApp;
 			productReference = C6E3EBBF2B80E07A0001CB42 /* DiaryAIApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = C6E3EBB62B80E07A0001CB42;
+			packageReferences = (
+				C6E3EBD62B80E89C0001CB42 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C6E3EBC02B80E07A0001CB42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +153,6 @@
 			files = (
 				C6E3EBCF2B80E07D0001CB42 /* LaunchScreen.storyboard in Resources */,
 				C6E3EBCC2B80E07D0001CB42 /* Assets.xcassets in Resources */,
-				C6E3EBCA2B80E07A0001CB42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E3EBC72B80E07A0001CB42 /* ViewController.swift in Sources */,
+				C6E3EBDA2B80F8130001CB42 /* TabbarViewController.swift in Sources */,
+				C6E3EBDE2B80F8780001CB42 /* CalendarController.swift in Sources */,
+				C6E3EBE02B80FA4D0001CB42 /* OpeningViewController.swift in Sources */,
+				C6E3EBC72B80E07A0001CB42 /* WriteDiaryController.swift in Sources */,
+				C6E3EBE22B80FB1A0001CB42 /* Pass.swift in Sources */,
+				C6E3EBE62B811A560001CB42 /* ReminderCell.swift in Sources */,
+				C6E3EBE42B80FF110001CB42 /* UIViewController+.swift in Sources */,
 				C6E3EBC32B80E07A0001CB42 /* AppDelegate.swift in Sources */,
+				C6E3EBDC2B80F86B0001CB42 /* ReadDiaryController.swift in Sources */,
 				C6E3EBC52B80E07A0001CB42 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +179,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C6E3EBC82B80E07A0001CB42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6E3EBC92B80E07A0001CB42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C6E3EBCD2B80E07D0001CB42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +316,6 @@
 				INFOPLIST_FILE = DiaryAIApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +343,6 @@
 				INFOPLIST_FILE = DiaryAIApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6E3EBD62B80E89C0001CB42 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6E3EBD72B80E89C0001CB42 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6E3EBD62B80E89C0001CB42 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6E3EBB72B80E07A0001CB42 /* Project object */;
 }
